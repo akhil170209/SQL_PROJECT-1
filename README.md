@@ -81,7 +81,7 @@ order by total_sale desc;
 
 ```
 
-2. **-- Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022**:
+2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022**:
 ```sql
 select 
 category, quantity, sale_time
@@ -147,7 +147,7 @@ group by 1, 2
 where sales_rank = 1;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 select
     customer_id,
